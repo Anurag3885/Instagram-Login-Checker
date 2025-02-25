@@ -10,7 +10,7 @@ def IsExists(user,password):
   payload = {'enc_password': f'#PWD_INSTAGRAM_BROWSER:0:{time}:{password}',
   'optIntoOneTap': 'false',
   'queryParams': {},
-  'username': user}
+  'username': s_khanak}
   files=[
 
   ]
